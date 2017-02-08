@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCE5DFC11E49C790006BAE95 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE5DFC01E49C790006BAE95 /* main.m */; };
+		DCE5DFC41E49C790006BAE95 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE5DFC31E49C790006BAE95 /* AppDelegate.m */; };
+		DCE5DFCC1E49C790006BAE95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCE5DFCB1E49C790006BAE95 /* Assets.xcassets */; };
+		DCE5DFCF1E49C790006BAE95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCE5DFCD1E49C790006BAE95 /* LaunchScreen.storyboard */; };
+		DCE5DFD81E49C82A006BAE95 /* GATCDViewControleller.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE5DFD71E49C82A006BAE95 /* GATCDViewControleller.m */; };
+		DCE5DFDC1E49C957006BAE95 /* UIView+GAToast.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE5DFDB1E49C957006BAE95 /* UIView+GAToast.m */; };
+		DCE5DFDF1E49CFC8006BAE95 /* GAToastStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE5DFDE1E49CFC8006BAE95 /* GAToastStyle.m */; };
+		DCE5DFE21E49E0A6006BAE95 /* GADefaultActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE5DFE11E49E0A6006BAE95 /* GADefaultActivityView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DCE5DFBC1E49C790006BAE95 /* GAToastCategoryDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GAToastCategoryDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCE5DFC01E49C790006BAE95 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DCE5DFC21E49C790006BAE95 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DCE5DFC31E49C790006BAE95 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DCE5DFCB1E49C790006BAE95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCE5DFCE1E49C790006BAE95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCE5DFD01E49C790006BAE95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCE5DFD61E49C82A006BAE95 /* GATCDViewControleller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GATCDViewControleller.h; sourceTree = "<group>"; };
+		DCE5DFD71E49C82A006BAE95 /* GATCDViewControleller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GATCDViewControleller.m; sourceTree = "<group>"; };
+		DCE5DFDA1E49C957006BAE95 /* UIView+GAToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GAToast.h"; sourceTree = "<group>"; };
+		DCE5DFDB1E49C957006BAE95 /* UIView+GAToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GAToast.m"; sourceTree = "<group>"; };
+		DCE5DFDD1E49CFC8006BAE95 /* GAToastStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAToastStyle.h; sourceTree = "<group>"; };
+		DCE5DFDE1E49CFC8006BAE95 /* GAToastStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GAToastStyle.m; sourceTree = "<group>"; };
+		DCE5DFE01E49E0A6006BAE95 /* GADefaultActivityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADefaultActivityView.h; sourceTree = "<group>"; };
+		DCE5DFE11E49E0A6006BAE95 /* GADefaultActivityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GADefaultActivityView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCE5DFB91E49C790006BAE95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCE5DFB31E49C790006BAE95 = {
+			isa = PBXGroup;
+			children = (
+				DCE5DFBE1E49C790006BAE95 /* GAToastCategoryDemo */,
+				DCE5DFBD1E49C790006BAE95 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCE5DFBD1E49C790006BAE95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCE5DFBC1E49C790006BAE95 /* GAToastCategoryDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCE5DFBE1E49C790006BAE95 /* GAToastCategoryDemo */ = {
+			isa = PBXGroup;
+			children = (
+				DCE5DFD91E49C925006BAE95 /* UIView+GAToast */,
+				DCE5DFD61E49C82A006BAE95 /* GATCDViewControleller.h */,
+				DCE5DFD71E49C82A006BAE95 /* GATCDViewControleller.m */,
+				DCE5DFC21E49C790006BAE95 /* AppDelegate.h */,
+				DCE5DFC31E49C790006BAE95 /* AppDelegate.m */,
+				DCE5DFCB1E49C790006BAE95 /* Assets.xcassets */,
+				DCE5DFCD1E49C790006BAE95 /* LaunchScreen.storyboard */,
+				DCE5DFD01E49C790006BAE95 /* Info.plist */,
+				DCE5DFBF1E49C790006BAE95 /* Supporting Files */,
+			);
+			path = GAToastCategoryDemo;
+			sourceTree = "<group>";
+		};
+		DCE5DFBF1E49C790006BAE95 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCE5DFC01E49C790006BAE95 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DCE5DFD91E49C925006BAE95 /* UIView+GAToast */ = {
+			isa = PBXGroup;
+			children = (
+				DCE5DFDA1E49C957006BAE95 /* UIView+GAToast.h */,
+				DCE5DFDB1E49C957006BAE95 /* UIView+GAToast.m */,
+				DCE5DFDD1E49CFC8006BAE95 /* GAToastStyle.h */,
+				DCE5DFDE1E49CFC8006BAE95 /* GAToastStyle.m */,
+				DCE5DFE01E49E0A6006BAE95 /* GADefaultActivityView.h */,
+				DCE5DFE11E49E0A6006BAE95 /* GADefaultActivityView.m */,
+			);
+			path = "UIView+GAToast";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCE5DFBB1E49C790006BAE95 /* GAToastCategoryDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCE5DFD31E49C790006BAE95 /* Build configuration list for PBXNativeTarget "GAToastCategoryDemo" */;
+			buildPhases = (
+				DCE5DFB81E49C790006BAE95 /* Sources */,
+				DCE5DFB91E49C790006BAE95 /* Frameworks */,
+				DCE5DFBA1E49C790006BAE95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GAToastCategoryDemo;
+			productName = GAToastCategoryDemo;
+			productReference = DCE5DFBC1E49C790006BAE95 /* GAToastCategoryDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCE5DFB41E49C790006BAE95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = GikkiAres;
+				TargetAttributes = {
+					DCE5DFBB1E49C790006BAE95 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 5R6389ZN76;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DCE5DFB71E49C790006BAE95 /* Build configuration list for PBXProject "GAToastCategoryDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCE5DFB31E49C790006BAE95;
+			productRefGroup = DCE5DFBD1E49C790006BAE95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCE5DFBB1E49C790006BAE95 /* GAToastCategoryDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCE5DFBA1E49C790006BAE95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCE5DFCF1E49C790006BAE95 /* LaunchScreen.storyboard in Resources */,
+				DCE5DFCC1E49C790006BAE95 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCE5DFB81E49C790006BAE95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCE5DFD81E49C82A006BAE95 /* GATCDViewControleller.m in Sources */,
+				DCE5DFE21E49E0A6006BAE95 /* GADefaultActivityView.m in Sources */,
+				DCE5DFC41E49C790006BAE95 /* AppDelegate.m in Sources */,
+				DCE5DFDC1E49C957006BAE95 /* UIView+GAToast.m in Sources */,
+				DCE5DFDF1E49CFC8006BAE95 /* GAToastStyle.m in Sources */,
+				DCE5DFC11E49C790006BAE95 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DCE5DFCD1E49C790006BAE95 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCE5DFCE1E49C790006BAE95 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCE5DFD11E49C790006BAE95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCE5DFD21E49C790006BAE95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCE5DFD41E49C790006BAE95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5R6389ZN76;
+				INFOPLIST_FILE = GAToastCategoryDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HeartFollower.GAToastCategoryDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DCE5DFD51E49C790006BAE95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5R6389ZN76;
+				INFOPLIST_FILE = GAToastCategoryDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HeartFollower.GAToastCategoryDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCE5DFB71E49C790006BAE95 /* Build configuration list for PBXProject "GAToastCategoryDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCE5DFD11E49C790006BAE95 /* Debug */,
+				DCE5DFD21E49C790006BAE95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCE5DFD31E49C790006BAE95 /* Build configuration list for PBXNativeTarget "GAToastCategoryDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCE5DFD41E49C790006BAE95 /* Debug */,
+				DCE5DFD51E49C790006BAE95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCE5DFB41E49C790006BAE95 /* Project object */;
+}
